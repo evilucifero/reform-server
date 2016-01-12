@@ -28,5 +28,10 @@
   },
   "final:after": {
     "loopback#errorHandler": {}
+  },
+  "files": {
+    "loopback#static": {
+      "params": "$!../client"
+    }
   }
 }

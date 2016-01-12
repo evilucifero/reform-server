@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>表单系统</title>
+  <style>
+    a:link, a:visited, a:hover, a:active {
+      color: #ccc;
+      text-decoration:none;
+      display: block;
+      padding: 16px 32px;
+      border: 2px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+      margin: 20px;
+    }
+    a:hover, a:active {
+      color: #3cc;
+      border: 2px solid #3cc;
+    }
+    body {
+      background-color: #333;
+      font-family: "Lucida Console", Monaco, monospace;
+    }
+    #heading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -100px 0 0 -128px;
+      text-align: center;
+      color: #ccc;
+    }
+    #title {
+      font-size: 32px;
+    }
+    #intro {
+      font-size: 16px;
+      line-height: 1;
+      vertical-align: middle;
+    }
+    @media (min-width: 768px){
+      #heading {margin: -200px 0 0 -256px;}
+      #title {font-size: 64px;}
+      #intro {font-size: 32px;}
+      a:link, a:visited, a:hover, a:active {display: inline-block;}
+    }
+  </style>
+</head>
+<body>
+  <article id="main">
+    <div id="heading">
+      <h1 id="title">欢迎来到表单系统</h1>
+      <div id="intro">
+        <a href="create.html">新建表单</a>
+        <a href="login.html">打开表单</a>
+      </div>
+    </div>
+  </article>
+</body>
+</html>
